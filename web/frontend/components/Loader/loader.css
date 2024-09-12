@@ -66,6 +66,7 @@
     .dot-spinner__dot:nth-child(3)::before {
       animation-delay: calc(var(--uib-speed) * -0.75);
     }
+    /* css */
     
     .dot-spinner__dot:nth-child(4) {
       transform: rotate(135deg);
