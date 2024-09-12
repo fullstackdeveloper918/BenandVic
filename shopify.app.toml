@@ -3,7 +3,7 @@
 client_id = "dd0d3acd7ee6b8e2dcf26e84ffb3a09f"
 name = "small-custom-app"
 handle = "small-custom-app"
-application_url = "https://audi-leon-preston-fiber.trycloudflare.com"
+application_url = "https://fountain-strip-phd-chevy.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "read_all_cart_transforms,read_all_checkout_completion_target_customiza
 
 [auth]
 redirect_urls = [
-  "https://audi-leon-preston-fiber.trycloudflare.com/auth/callback",
-  "https://audi-leon-preston-fiber.trycloudflare.com/auth/shopify/callback",
-  "https://audi-leon-preston-fiber.trycloudflare.com/api/auth/callback"
+  "https://fountain-strip-phd-chevy.trycloudflare.com/auth/callback",
+  "https://fountain-strip-phd-chevy.trycloudflare.com/auth/shopify/callback",
+  "https://fountain-strip-phd-chevy.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
