@@ -66,6 +66,9 @@ p {
   .container {
     max-width: 440px;
   }
+  .copyBox {
+    gap: 5px;
+}
 }
 @media (max-width: 600px) {
   .token-box {
