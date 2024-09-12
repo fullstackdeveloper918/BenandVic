@@ -1,0 +1,29 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "dd0d3acd7ee6b8e2dcf26e84ffb3a09f"
+name = "small-custom-app"
+handle = "small-custom-app"
+application_url = "https://violation-nodes-hit-hc.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "webhooktestingstore.myshopify.com"
+include_config_on_deploy = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "read_customers,read_discounts,read_discovery,read_files,read_orders,read_products,read_themes"
+
+[auth]
+redirect_urls = [
+  "https://violation-nodes-hit-hc.trycloudflare.com/auth/callback",
+  "https://violation-nodes-hit-hc.trycloudflare.com/auth/shopify/callback",
+  "https://violation-nodes-hit-hc.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-07"
+
+[pos]
+embedded = false
